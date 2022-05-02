@@ -1,0 +1,59 @@
+
+
+#trabalhos{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+#trabalhos h1{
+    position: relative;
+    top: 60px;
+    text-transform: uppercase;
+    background-color: rgba(74, 70, 70, 0.309);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Raleway';
+
+}
+
+.card{  
+    position: relative;
+    display: inline-block;
+    margin: 80px auto;
+    left: 10px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: rgb(222, 213, 213);
+    border: 3px solid white;
+  
+  
+}
+.card h5, p {
+    font-family: 'Raleway';
+    color: rgb(0, 0, 0);
+}
+.publi{
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+   scroll-behavior: smooth;
+}
+
+.publi::-webkit-scrollbar{
+  display: none;
+}
+
+.btn{
+    background-color: black;
+    border: 1px solid;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
+

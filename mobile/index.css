@@ -1,0 +1,98 @@
+@media screen and (max-width: 578px){
+    .menu #logo{
+        position: absolute;
+        width: 100px;
+        right: 500px;
+    }
+
+    .menu li, a{
+    position: relative;
+display: inline-block;
+    font-size: 15px;
+    left: 120px;
+    width: 150px;
+
+
+
+  
+    }
+
+
+  
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 30px;
+
+
+    left: 300px;
+    margin-left: 180px;
+  
+  
+  
+}
+
+
+
+/* footer */
+
+@media screen and (max-width: 578px){
+
+    .logo-footer img{
+        position: absolute;
+        left: 0;
+        width: 100%;
+      
+    }
+
+
+    .colun h2, h3{
+        position: relative;
+        font-size: 20px;
+        width: 300px;
+        right: 150px;
+        text-align: center;
+    }
+.redes{
+    width: 100%;
+}
+    .redes li{
+        position: relative;
+        display: inline-block;
+        top: 150px;
+        right: 40px;
+        width: 120px;
+
+    }
+
+#trabalhos h1{
+    width: 100%;
+}
+
+
+
+}
+
+/* show */
+
+@media screen and (max-width: 578px){
+    #carouselExampleControls{
+        width: 100%;
+       
+    }
+
+    .menu #logo{
+        
+        width: 100px;
+    
+        top: 10px;
+    }
+
+    .redes{
+        position: relative;
+        right: 100px;
+    }
+   
+}

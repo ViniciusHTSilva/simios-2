@@ -1,0 +1,99 @@
+footer{
+    background-color: #666;
+    padding: 5em;
+    padding-bottom: 40px;
+
+    border-top: 3px solid white;
+    height: 100vh;
+  
+    font-family: 'Raleway';
+    
+}
+
+footer h2, footer h3, footer p, footer a, footer span{
+    color: #d1d1d1;
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.colun{
+    width: 47%;
+    padding: 1%;
+    float: left;
+
+}
+
+footer .contato::after{
+    clear: both;
+    content: "";
+    display: block;
+    
+}
+
+.logo-footer{
+width: 80%;
+
+}
+
+.logo-footer h2{
+    margin-top: 20px;
+}
+
+.logo-footer h2,.logo-footer p{
+    margin-bottom: 20px;
+}
+.logo-footer img{
+    position: relative;
+   
+  width: 300px;
+}
+
+.redes{
+    margin-top: 60px;
+}
+.redes li{
+margin-bottom: 20px;
+
+}
+
+
+
+.redes a{
+    transition: .5s;
+}
+
+.redes a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.redes li::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.redes li span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
