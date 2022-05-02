@@ -15,18 +15,25 @@ left: 0;
 
 
 
+
+
 /*Menu*/
 
-/*Menu*/
 
 
+.menu ul{
+    position: fixed;
+  
+    width: 900px;
+    right: 650px;
+
+}
 
 
 .menu #logo{
     position: absolute;
     width: 100px;
-    right: 230px;
-    top: -15px;
+    right: 270px;
 }
 
 
@@ -34,28 +41,30 @@ left: 0;
 
 .menu li{
     display: inline-block;
-    position: relative;
-    top: 0px;
-    margin-top: 1px;
-    margin-top: 0px;
-    left: 200px;
-    margin-left: 120px;
+    position: fixed;
+    top: 10px;
+
+    left: 0;
+  
     font-size: 20px;
   
     text-align: center;
     text-decoration: none;
-    
+
 
 }
 
 .menu a{
+  
    
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: rgb(0, 0, 0);
     position: fixed;
     width: 150px;
+    
     font-family: 'Raleway';
+   
 
 
 
@@ -77,6 +86,7 @@ left: 0;
 }
 
 
+
 .principal{
 
     width: 100%;
@@ -86,7 +96,7 @@ left: 0;
 }
 .principal h1{
     position: relative;
-    top: 35px;
+    top: 60px;
     text-transform: uppercase;
     background-color: rgba(74, 70, 70, 0.309);
     color: rgb(0, 0, 0);
