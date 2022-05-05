@@ -33,12 +33,7 @@
 
 @media screen and (max-width: 578px){
 
-    .logo-footer img{
-        position: absolute;
-        left: 0;
-        width: 100%;
-      
-    }
+
 
 
     .colun h2, h3{
@@ -76,18 +71,28 @@
     }
 
 
-    .redes{
-        position: relative;
-        right: 100px;
-    }
-    footer{
-        position: absolute;
-        width: 100%;
-        top: 400px;
-    }
+
 
     .principal h1{
         position: absolute;
         top: 120px;
     }
+
+/* footer */}
+
+@media screen and (max-width: 578px){
+
+    footer{
+        position: absolute;
+        width: 100%;
+        top: 400px;
+    }
+    .logo-footer img{
+        position: absolute;
+        right: 30px;
+        width: 100%;
+      
+    }
+
+
 }
