@@ -5,15 +5,15 @@
     font-size: 15px;
     width: 150px;
     left: 250px;
-}
-.menu ul{
+            }
+    .menu ul{
     width: 100%;
     
-}
+            }
 
   
-}
-.menu li {
+
+    .menu li {
     display: inline-block;
     position: relative;
     width: 90px;
@@ -25,8 +25,8 @@
   
   
   
+    }
 }
-
 
 
 /* footer */
