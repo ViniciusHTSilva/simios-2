@@ -1,22 +1,15 @@
 @media screen and (max-width: 578px){
-    .menu #logo{
-        position: absolute;
-        width: 100px;
-        right: 500px;
-    }
 
-    .menu li, a{
-    position: relative;
-display: inline-block;
+    .menu a{
+    position: absolute;
     font-size: 15px;
-    left: 120px;
     width: 150px;
-
-
-
-  
-    }
-
+    left: 250px;
+}
+.menu ul{
+    width: 100%;
+    
+}
 
   
 }
@@ -25,7 +18,7 @@ display: inline-block;
     position: relative;
     width: 90px;
     height: 30px;
-
+    
 
     left: 300px;
     margin-left: 180px;
@@ -67,9 +60,6 @@ display: inline-block;
 
     }
 
-#trabalhos h1{
-    width: 100%;
-}
 
 
 
@@ -79,16 +69,12 @@ display: inline-block;
 
 @media screen and (max-width: 578px){
     #carouselExampleControls{
+        position: absolute;
+        top: 200px;
         width: 100%;
        
     }
 
-    .menu #logo{
-        
-        width: 100px;
-    
-        top: 10px;
-    }
 
     .redes{
         position: relative;
@@ -98,5 +84,10 @@ display: inline-block;
         position: absolute;
         width: 100%;
         top: 400px;
+    }
+
+    .principal h1{
+        position: absolute;
+        top: 120px;
     }
 }
