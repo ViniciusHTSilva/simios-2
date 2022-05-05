@@ -17,15 +17,20 @@ left: 0;
 
 
 
+
+
 /*Menu*/
 
 
 
 .menu ul{
     position: fixed;
-  
     width: 900px;
-    right: 650px;
+    display: flex;
+    align-items: center;
+ 
+   
+    
 
 }
 
@@ -37,13 +42,14 @@ left: 0;
 
 .menu li{
     display: inline-block;
-    position: fixed;
-    top: 10px;
-
-    left: 0;
+    position: relative;
+    top: 0px;
+    margin-top: 1px;
   
+    left: 0px;
+    margin-left: 300px;
     font-size: 20px;
-
+  
     text-align: center;
     text-decoration: none;
 
@@ -52,13 +58,13 @@ left: 0;
 
 .menu a{
   
-   
+   margin-right: -210px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(0, 0, 0);
     position: fixed;
     width: 150px;
-    
+  
     font-family: 'Raleway';
    
 

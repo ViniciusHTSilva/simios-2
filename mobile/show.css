@@ -1,31 +1,44 @@
 @media screen and (max-width: 578px){
 
     .menu a{
-    position: absolute;
-    font-size: 15px;
-    width: 150px;
-    left: 250px;
-            }
-    .menu ul{
-    width: 100%;
+        position: absolute;
+      top: 0;
+        font-size: 15px;
+        width: 100px;
+       right: 150px;
+     
     
-            }
-
-  
-
-    .menu li {
-    display: inline-block;
-    position: relative;
-    width: 90px;
-    height: 30px;
+        
+       
+                }
+        .menu ul{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            font-size: 10px;
+            
+      
     
-
-    left: 300px;
-    margin-left: 180px;
-  
-  
-  
-    }
+    
+        width: 100px;
+    
+                }
+    
+      
+    
+        .menu li {
+    
+        position: relative;
+        padding: 20px;
+    
+        margin-left: 200px;
+    
+       
+       
+      
+      
+      
+        }
 }
 
 
